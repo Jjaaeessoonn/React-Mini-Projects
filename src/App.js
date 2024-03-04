@@ -1,23 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+// import Sidebar from './components/Sidebar.js';
+import Accordion from './components/accordion_project/Accordion';
+import ImageSlider from './components/image-slider/ImageSlider';
+import LoadMoreData from './components/load-more-data/LoadMoreData';
+import RandomColor from './components/random-color-project/RandomColor';
+import StarRating from './components/star-rating/StarRating';
+import TicTacToe from './components/tic-tac-toe/TicTacToe';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <h1>My React App</h1> */}
+      {/* <Sidebar /> */}
+
+      {/* Accordion component */}
+      {/* <Accordion /> */}
+      {/* <RandomColor /> */}
+      {/* <StarRating /> */}
+      {/* <StarRating /> */}
+      {/* <ImageSlider 
+        url={'https://picsum.photos/v2/list'} 
+        limit={'10'} 
+        page={'1'} 
+      /> */}
+
+      {/* <LoadMoreData /> */}
+
+      <TicTacToe />
+
     </div>
   );
 }

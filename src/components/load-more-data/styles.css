@@ -1,0 +1,25 @@
+.load-more-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /*1 fr = 1fraction = 25% i.e. 1 slice of 4 accounts for gap automatically*/
+    gap: 10px;
+}
+
+.product{
+    padding: 20px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.product img{
+    width: 200px;
+    height: 200px;
+}
